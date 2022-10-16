@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 00 to 99 in two's.
- * Return: Always 0 (Success)
+ * main - print numbers betweem 00 to 99 in two's
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -30,8 +30,8 @@ while (h < 58)
 					putchar(i);
 					if (h == 57 && g == 56 && e == 57 && i == 57)
 						break;
-						putchar(',');
-						putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 				i++;
 			}
